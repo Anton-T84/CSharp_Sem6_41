@@ -20,7 +20,7 @@ int numbersInput(int numberCount)  //Метод ввода цифр по оче�
 return countPositive;
 }
 
-int numbersRandom(int numberCount)//Метод случайного генерирования цифр ( ну что бы не парится с вводом )
+int numbersRandom(int numberCount)//Метод случайного генерирования цифр 
 {
     Random rnd = new Random();
     int count = 1;
